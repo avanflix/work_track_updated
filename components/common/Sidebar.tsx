@@ -30,7 +30,7 @@ const NAV = [
   { href: "/dashboard/holidays", label: "Holidays", icon: PartyPopper, roles: ["SUPER_ADMIN", "ADMIN", "EMPLOYEE"] },
   { href: "/dashboard/leave", label: "Leave", icon: CalendarDays, roles: ["SUPER_ADMIN", "ADMIN", "EMPLOYEE"] },
   { href: "/dashboard/shoots", label: "Shoots", icon: Camera, roles: ["SUPER_ADMIN", "ADMIN", "EMPLOYEE"] },
-  { href: "/dashboard/deliveries", label: "Deliveries", icon: PackageCheck, roles: ["SUPER_ADMIN", "ADMIN", "EMPLOYEE"] },
+  { href: "/dashboard/deliveries", label: "Deliverables", icon: PackageCheck, roles: ["SUPER_ADMIN", "ADMIN", "EMPLOYEE"] },
   { href: "/dashboard/employees", label: "Employees", icon: Users, roles: ["SUPER_ADMIN", "ADMIN"] },
   { href: "/dashboard/reports", label: "Reports", icon: FileBarChart, roles: ["SUPER_ADMIN", "ADMIN"] },
   { href: "/dashboard/notifications", label: "Notifications", icon: Bell, roles: ["SUPER_ADMIN", "ADMIN", "EMPLOYEE"] },
