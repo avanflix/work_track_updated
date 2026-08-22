@@ -6,7 +6,7 @@ import type { UserRole } from "@/types";
 import { getWorkLogVisibleRoles } from "@/utils/permissions";
 
 /** How far back a work log can still be created/edited. */
-export const WORK_LOG_EDIT_WINDOW_DAYS = 20;
+export const WORK_LOG_EDIT_WINDOW_DAYS = 3;
 
 export interface WorkLogQueryOptions {
   employee?: string;
